@@ -97,7 +97,7 @@ public class Code02_BubbleSort {
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-//            selectionSort(arr1);
+            bubbleSort(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -110,7 +110,7 @@ public class Code02_BubbleSort {
 
         int[] arr = generateRandomArray(maxSize, maxValue);
         printArray(arr);
-//        selectionSort(arr);
+        bubbleSort(arr);
         printArray(arr);
     }
 }
