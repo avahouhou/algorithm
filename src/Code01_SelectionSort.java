@@ -1,5 +1,11 @@
 import java.util.Arrays;
 
+/*
+ * 选择排序算法，时间复杂度O(n^2)
+ *
+ * O(n^2)排序的缺点：大量浪费比较行为
+ * */
+
 public class Code01_SelectionSort {
 
     public static void selectionSort(int[] arr) {
